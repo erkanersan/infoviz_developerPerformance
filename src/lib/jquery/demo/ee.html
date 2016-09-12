@@ -1,0 +1,40 @@
+<html>
+<head>
+
+<title>jQuery Autocomplete Plugin</title>
+<script type="text/javascript" src="../lib/jquery.js"></script>
+<script type='text/javascript' src='../lib/jquery.ajaxQueue.js'></script>
+<script type='text/javascript' src='../jquery.autocomplete.js'></script>
+<script type='text/javascript' src='localdata.js'></script>
+<link rel="stylesheet" type="text/css" href="main.css" />
+<link rel="stylesheet" type="text/css" href="../jquery.autocomplete.css" />
+
+	
+<script type="text/javascript">
+$().ready(function() {
+	$("#suggest14").autocomplete('search.php', {
+		matchContains: true,
+		minChars: 0
+	});
+});
+</script>
+	
+</head>
+
+<body>
+
+<div id="content">
+	
+	<form autocomplete="off">
+		<p>
+			<label>Single City (contains):</label>
+			<input type="text" id="suggest14" />
+			<input type="button" value="Get Value" />
+		</p>
+	</form>
+			
+</div>
+
+
+</body>
+</html>

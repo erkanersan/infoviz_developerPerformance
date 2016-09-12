@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Absolut';
+    src: url('http://fonts.absolut.com/fonts/absolut-regular-webfont.eot');
+    src: url('http://fonts.absolut.com/fonts/absolut-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('http://fonts.absolut.com/fonts/absolut-regular-webfont.woff') format('woff'),
+        url('http://fonts.absolut.com/fonts/absolut-regular-webfont.ttf') format('truetype'),
+        url('http://fonts.absolut.com/fonts/absolut-regular-webfont.svg#absolut-regular-webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
